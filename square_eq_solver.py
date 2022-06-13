@@ -6,12 +6,9 @@ def findRoots(a, b, c):
     sqrt_val = math.sqrt(abs(dis_form))  
   
     if dis_form > 0:  
-        print(" real and different roots ")  
-        print((-b + sqrt_val) / (2 * a))  
-        print((-b - sqrt_val) / (2 * a))  
+        print(((-b + sqrt_val) / (2 * a),(-b - sqrt_val) / (2 * a)))  
   
     elif dis_form == 0:  
-        print(" real and same roots")  
         print(-b / (2 * a))  
   
     else:  
